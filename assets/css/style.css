@@ -1,49 +1,14 @@
-/* Full Site Original CSS */
-
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-/* END */
-
 body {
     background-color: #d9dcd6;
 }
 
-/* Header Semantic Mod. */
-
-header {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
-}
-
-header h1 {
-    display: inline-block;
-    font-size: 48px;
-}
-
-header h1 span {
-    color: #d9dcd6;
-}
-
-/* END */
-
-/* Banner Section Semantic Mod. */
-
-section.banner img {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-
-}
-
-/* END */
-
-/* .header {
+.header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -57,7 +22,7 @@ section.banner img {
 
 .header h1 .seo {
     color: #d9dcd6;
-} */
+}
 
 .header div {
     padding-top: 15px;
@@ -85,14 +50,14 @@ p {
     font-size: 16px;
 }
 
-/* .hero {
+.hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
-} */
+}
 
 .float-left {
     float: left;
@@ -223,7 +188,7 @@ p {
     font-size: 36px;
 }
 
-/* .footer {
+.footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -232,21 +197,4 @@ p {
 
 .footer h2 {
     font-size: 20px;
-} */
-
-/* Footer Semantic Mod. */
-
-footer {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-    padding: 30px;
-    clear: both;
 }
-
-footer h2 {
-    font-size: 20px;
-}
-
-/* END */
-
-

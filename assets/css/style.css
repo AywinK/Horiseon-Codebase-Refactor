@@ -50,14 +50,26 @@ p {
     font-size: 16px;
 }
 
-.hero {
+/* Banner Section Semantic Mod. */
+
+section.banner img {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    size: cover;
+    position: center;
+}
+
+/* END */
+
+/* .hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
-}
+} */
 
 .float-left {
     float: left;

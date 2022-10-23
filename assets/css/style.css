@@ -96,15 +96,16 @@ main section h2 {
 
 main section img {
     max-height: 200px;
-    margin-right: 25px;
 }
 
 main section img.float-left {
     float: left;
+    margin-right: 25px;
 }
 
 main section img.float-right {
     float: right;
+    margin-left: 25px;
 }
 
 /* END */

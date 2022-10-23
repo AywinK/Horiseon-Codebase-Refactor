@@ -156,7 +156,40 @@ main section.social-media-marketing p {
 
 /* END */
 
+/* Aside Semantic Mod. */
 
+aside {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+aside section {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+aside section h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+aside section img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+aside section p {
+    font-size: 16px;
+}
+
+/* END */
 
 
 .benefits {

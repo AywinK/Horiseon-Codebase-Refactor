@@ -67,6 +67,7 @@ section.hero img {
     width: 100%;
     margin-bottom: 25px;
     display: block;
+    object-fit: cover;
 }
 
 /* END */

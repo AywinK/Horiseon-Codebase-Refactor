@@ -70,12 +70,7 @@ main {
     margin-left: 20px;
 }
 
-/* END */
-
-
-/* search-engine-optimization Section Semantic Mod. */
-
-main section.search-engine-optimization {
+main section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -84,10 +79,15 @@ main section.search-engine-optimization {
     color: #ffffff;
 }
 
-main section.search-engine-optimization h2 {
+main section h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
+/* END */
+
+
+/* search-engine-optimization Section Semantic Mod. */
 
 main section.search-engine-optimization img {
     max-height: 200px;
@@ -95,27 +95,9 @@ main section.search-engine-optimization img {
     margin-right: 25px;
 }
 
-main section.search-engine-optimization p {
-    font-size: 16px;
-}
-
 /* END */
 
 /* online-reputation-management Section Semantic Mod. */
-
-main section.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-msin section.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
 
 main section.online-reputation-management img {
     max-height: 200px;
@@ -123,26 +105,10 @@ main section.online-reputation-management img {
     margin-left: 25px;
 }
 
-main section.online-reputation-management p {
-    font-size: 16px;
-}
+
 /* END */
 
 /* online-reputation-management Section Semantic Mod. */
-
-main section.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-main section.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
 
 main section.social-media-marketing img {
     max-height: 200px;
@@ -150,9 +116,6 @@ main section.social-media-marketing img {
     margin-right: 25px;
 }
 
-main section.social-media-marketing p {
-    font-size: 16px;
-}
 
 /* END */
 
@@ -185,11 +148,8 @@ aside section img {
     max-width: 150px;
 }
 
-aside section p {
-    font-size: 16px;
-}
-
 /* END */
+
 
 
 /* Footer Semantic Mod. */

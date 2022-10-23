@@ -84,40 +84,21 @@ main section h2 {
     font-size: 36px;
 }
 
-/* END */
-
-
-/* search-engine-optimization Section Semantic Mod. */
-
-main section.search-engine-optimization img {
+main section img {
     max-height: 200px;
-    float: left;
     margin-right: 25px;
 }
 
-/* END */
+main section img.float-left {
+    float: left;
+}
 
-/* online-reputation-management Section Semantic Mod. */
-
-main section.online-reputation-management img {
-    max-height: 200px;
+main section img.float-right {
     float: right;
-    margin-left: 25px;
 }
-
 
 /* END */
 
-/* online-reputation-management Section Semantic Mod. */
-
-main section.social-media-marketing img {
-    max-height: 200px;
-    float: left;
-    margin-right: 25px;
-}
-
-
-/* END */
 
 /* Aside Semantic Mod. */
 

@@ -112,7 +112,7 @@ aside {
     margin-bottom: 32px;
 }
 
-.side_card h3 , footer { /* SHARED WITH WEBPAGE FOOTER */
+.side_card h3 , footer { /* SHARED WITH WEBPAGE FOOTER ELEMENT */
     clear: both;
     text-align: center;
 }

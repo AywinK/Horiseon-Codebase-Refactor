@@ -1,68 +1,56 @@
+    /* General Styling */
 * {
     box-sizing: border-box;
-    padding: 0;
     margin: 0;
 }
 
+    /* Horiseon webpage theme styling (Default  font-size (16px for most browsers) ) */
 body {
     background-color: #d9dcd6;
-}
-
-
-/* Header Semantic Mod. */
-
-header {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     color: #ffffff;
 }
 
+    /* Header styling background */
+header {
+    padding: 20px;
+    background-color: #2a607c;
+}
+    /* Main heading - only used once  */
 header h1 {
     display: inline-block;
-    font-size: 48px;
+    font-size: 3rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
 }
-
+/* Main heading transparent effect on letters "seo" */
 header h1 span {
     color: #d9dcd6;
 }
 
-    /* Nav Semantic Mod. */
+    /* Main Navigation styling (nested in header tag) */
 
-header nav {
+#main_navigation {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+    font-size: 1.25rem; 
 }
 
-header nav ul {
-    list-style-type: none;
-}
-
-header nav ul li {
+#main_navigation li {
     display: inline-block;
     margin-left: 25px;
 }
 
-a {
+#main_navigation a {
     color: #ffffff;
     text-decoration: none;
 }
 
-    /* END */
-
-/* END */
 
 
-p {
-    font-size: 16px;
-}
+/* Hero Section - currently only contains image */
 
-/* Banner Section Semantic Mod. */
-
-section.hero img {
+.hero img {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -70,9 +58,8 @@ section.hero img {
     object-fit: cover;
 }
 
-/* END */
 
-/* Main Semantic Mod. */
+/* Main Content area */
 
 main {
     width: 75%;
@@ -80,81 +67,71 @@ main {
     margin-left: 20px;
 }
 
-main section {
+/* main_card class styling - main sections of webpage */
+
+.main_card {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
-    color: #ffffff;
 }
 
-main section h2 {
+.main_card h2 {
     margin-bottom: 20px;
-    font-size: 36px;
+    font-size: 2.25rem;
 }
 
-main section img {
+.main_card img {
     max-height: 200px;
 }
-
-main section img.float-left {
+/* Standard options for positioning images in class=main_card element */
+.main_card img.float-left {
     float: left;
     margin-right: 25px;
 }
 
-main section img.float-right {
+.main_card img.float-right {
     float: right;
     margin-left: 25px;
 }
 
-/* END */
 
 
-/* Aside Semantic Mod. */
+/* Aside Element - sidebar on right containing related information in sections with styling using class="side_card" */
 
 aside {
     margin-right: 20px;
     padding: 20px;
-    clear: both;
     float: right;
     width: 20%;
     height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
 
-aside section {
+.side_card {
     margin-bottom: 32px;
-    color: #ffffff;
 }
 
-aside section h3 {
-    margin-bottom: 10px;
+.side_card h3 , footer { /* SHARED WITH WEBPAGE FOOTER */
+    clear: both;
     text-align: center;
 }
 
-aside section img {
+.side_card img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-/* END */
 
-
-
-/* Footer Semantic Mod. */
+/* Footer styling - inherits properties from previous section (under styling for side_card) */
 
 footer {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
     padding: 30px;
-    clear: both;
+    color: initial;
 }
 
-footer h2 {
-    font-size: 20px;
+footer h3 {
+    font-size: 1.25rem; 
 }
-
-/* END */

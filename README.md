@@ -1,7 +1,14 @@
 # Horiseon Codebase Refactor
 
 ## Description
+This project is undertaken to improve the codebase of an existing site for a marketing agency without any changes to the webpage appearance or function. The agency wants the site to follow accessibility standards, so that the site's rankings on search engines is optimised.
 
+Improvements to the site are achieved in this project by:
+- Use of semantic HTML elements
+- Bettering the HTML and CSS file structure including comments
+- Adding `<alt>` attributes to all images and icons
+- Addition of a well suited webpage title within the `<title>` tag
+- Fixing navigation links
 ## Installation
 No requirements. The webpage is best viewed on a modern web browser such as Google Chrome with a display resolution of 1920x1080.
 ## Usage

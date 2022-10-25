@@ -10,7 +10,7 @@ Improvements to the site are achieved in this project by:
 - Addition of a well suited webpage title within the `<title>` tag
 - Fixing navigation links
 ## Installation
-N/A see [Deployment](##Deployment)
+N/A see [Deployment](#Deployment)
 ## Usage
  The webpage is best viewed on a modern web browser such as Google Chrome with a display resolution of 1920x1080. A screenshot is included below showing the current appearance of the webpage.
  ![Horiseon Webpage screenshot](/assets/images/aywink.github.io_Module_1_Challenge_.png)

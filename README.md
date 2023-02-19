@@ -24,4 +24,4 @@ N/A see [Deployment](#Deployment)
 ## License
 MIT License
 ## Deployment
-The refactored Horiseon webpage is deployed using GitHub Pages. The site can be accessed at: https://aywink.github.io/Module_1_Challenge/
+The refactored Horiseon webpage is deployed using GitHub Pages. The site can be accessed at: https://aywink.github.io/Horiseon-Codebase-Refactor/
